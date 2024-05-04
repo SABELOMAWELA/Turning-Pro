@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+#title .quote{
+    line-height: 1.2; 
+    font-family: Open Sans, sans-serif; 
+    margin: 2rem; 
+}
+#circle-shape { 
+  font-family: Open Sans, sans-serif; 
+  margin: 2rem; 
+}
+#circle-shape p  { 
+  line-height: 1.2; 
+}
+#circle-shape .curve { 
+        width: 35%;
+        height: 455px;
+        float: left;
+        margin-right: 4rem;
+        border-radius: 50%;
+        -webkit-shape-outside: circle();
+        shape-outside: circle();
+    
+}
